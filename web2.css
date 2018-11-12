@@ -1,0 +1,135 @@
+body{
+	margin: 0;
+}
+
+.clearfix{
+	clear: both;
+}
+.fool{
+	padding-top: 40PX;
+	margin: 0;
+	width: 100%;
+	height:400px;
+	background-color:#2F4249;
+}
+.tolo{
+	width: 90%;
+	height: 30px;
+	margin-left: 4%;
+	margin-right: 5%;
+    
+	
+}
+.tolo div{
+	float: left;
+	margin-left:2%;
+
+}
+.tola h3{
+	color:#2F4249;
+	background-color: white;
+	width:50px;
+	text-align: center;
+	border-radius:5px;
+	font-size: 35px;
+	font-family: calibri;
+}
+.paul{
+	color: white;
+	font-size:25px;
+	font-family: calibri;
+	margin-top: 10px;
+}
+div.pil{
+	margin-left: 55%;
+}
+.pil h3{
+color: white;
+	font-size:25px;
+	font-family: calibri;
+	margin-top: 10px;
+}
+.pil button{
+	width: 80px;
+	height: 30px;
+	background-color: inherit;
+	border:1px solid white;
+	transition:0.5s;
+}
+.pil button:hover{
+	border:2px solid white;
+}
+.pil a{
+	text-decoration: none;
+	color: white;
+}
+
+.bop h2{
+text-align: center;
+color: white;
+font-size:40px;
+font-family:calibri;
+}
+.bop p{
+text-align: center;
+color: white;
+font-family:calibri;	
+}
+
+.top {
+	width: 40%;
+	height: 45px;
+	text-align: center;
+	background-color: white;
+	margin-right: 30%;
+    margin-left: 30%;
+    padding-top: 10px;
+}
+.top input{
+	height:30px;
+	width:70%;
+	padding-left: 10px;
+}
+.top button{
+	width:22%;
+	height:40px;
+	background-color:#006097;
+	color: white;
+	margin-left:10px;
+	margin-bottom: 10px;
+	border:none; 
+	border-radius: 5px;
+}
+.tsk {
+	width: 100%;
+	height: 50px;
+	background-color:#233237;
+	margin-top: -30px;
+}
+ul {
+	width:80%;
+	height: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+ul li {
+	float: left;
+	margin-top:15px;
+	color: white;
+	font-family: calibri;
+	margin-left:1%;
+	list-style-type: none;
+	font-size: 20px;
+}
+.clearfix{
+	clear: both;
+}
+.col{
+	width: 100%;
+	height: 20px;
+}
+.col h4{
+	font-size: 25px;
+	font-family: calibri;
+	margin-left: 10%;
+}
