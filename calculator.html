@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculator</title>
+	<script>
+		var firstvalue;
+		var secondvalue;
+		var result;
+	function add(){
+		firstvalue = parseInt(fv.value);
+       secondvalue = parseInt(sv.value);
+       result =  firstvalue + secondvalue;
+       r.value = result;
+	}
+	function multiply(){
+		firstvalue = parseInt(fv.value);
+       secondvalue = parseInt(sv.value);
+       result =  firstvalue * secondvalue;
+       r.value = result;
+	}function substract(){
+		firstvalue = parseInt(fv.value);
+       secondvalue = parseInt(sv.value);
+       result =  firstvalue - secondvalue;
+       r.value = result;
+	}function divide(){
+		firstvalue = parseInt(fv.value);
+       secondvalue = parseInt(sv.value);
+       result =  firstvalue / secondvalue;
+       r.value = result;
+	}
+	var JAMBScore;
+	function chekadmission(){
+		JAMBScore=fr.value;
+		// alert("am cheking")
+		if (JAMBScore>= 200){
+			alert("admission granted");
+		}
+		else{
+		alert("not admitted")
+		 }
+
+
+   
+	}
+
+
+	</script>
+</head>
+<body>
+<fieldset><legend>Calculator</legend>
+	<center>
+	<table border="1">
+		<tr  colspan="2" align="center"><td> calculator</td></tr>
+		<tr colspan="2" align="center"><td>first value<input type="text" id="fv" name=""></td></tr>
+
+       <tr  colspan="2" align="center"><td>second value<input type="text" id="sv" name=""></td></tr>
+
+       <tr  colspan="2" align="center"><td>result<input type="text" id="r" name=""></td></tr>
+
+     <tr colspan="2" align="center"><td> <button onclick="add()">+</button>  <button onclick="multiply()">*</button><button onclick="substract()">-</button><button onclick="divide()">/</button></td></tr>
+	</table>
+</center>
+</fieldset>
+<fieldset><legend>Addmission</legend>
+<center>
+	<table>
+		<tr ><td >JAMB Score<input type="text" id="fr" placeholder="200" name=""></td></tr>
+		<tr><td><button onclick="chekadmission()">Chek Addmission</button></td></tr>
+	</table>
+
+</center>
+</fieldset>
+</body>
+</html>

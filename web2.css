@@ -133,3 +133,194 @@ ul li {
 	font-family: calibri;
 	margin-left: 10%;
 }
+.prop{
+	width: 90%;
+	height: 400px;
+	margin-top: 30px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.prop div{
+	width:20%;
+	height: 300px;
+	border:2px solid gray;
+	border-radius:2px;
+	float: left;
+	margin-left: 2%;
+	position:relative;
+	transition: 0.5s
+
+	
+} 
+.prop div:hover{
+	cursor: pointer;
+	box-shadow:2px 2px gray;
+}
+.now{
+	background-image: url(images2/a1.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+}
+.now h2{
+font-family: calibri;
+margin-top:80%;
+text-align: center;
+}
+.now:hover{
+ color: #379BD3;
+}
+.now h4{
+font-family: calibri;
+text-align: center;
+color: gray;
+}
+
+
+.me{
+	background-image: url(images2/a2.jpg);
+	background-repeat: no-repeat;
+}
+.me:hover{
+color: #379BD3;
+}
+.me h2{
+font-family: calibri;
+margin-top:80%;
+text-align: center;
+}
+.me h4{
+font-family: calibri;
+text-align: center;
+color: gray;
+}
+
+.new{
+	background-image: url(images2/a3.jpg);
+	background-repeat: no-repeat;
+}
+.new:hover{
+color: #379BD3;
+}
+.new h2{
+font-family: calibri;
+margin-top:80%;
+text-align: center;
+}
+.new h4{
+font-family: calibri;
+text-align: center;
+color: gray;
+}
+.mon{
+	background-image: url(images2/a4.jpg);
+	background-repeat: no-repeat;
+}
+.mon:hover{
+  color: #379BD3;
+}
+
+.mon h2{
+font-family: calibri;
+margin-top:80%;
+text-align: center;
+}
+.mon h4{
+font-family: calibri;
+text-align: center;
+color: gray;
+}
+hr{
+	margin-right:10%;
+	margin-left: 12%;
+}
+.clearfix{
+	clear: both;
+}
+.holt{
+	background-image: url(images2/a5.jpg);
+	background-repeat: no-repeat;
+}
+.holt:hover{
+  color: #379BD3;
+}
+
+.holt h2{
+font-family: calibri;
+margin-top:80%;
+text-align: center;
+}
+.holt h4{
+font-family: calibri;
+text-align: center;
+color: gray;
+}
+
+.nove{
+	background-image: url(images2/a6.jpg);
+	background-repeat: no-repeat;
+}
+.nove:hover{
+  color: #379BD3;
+}
+
+.nove h2{
+font-family: calibri;
+margin-top:80%;
+text-align: center;
+}
+.nove h4{
+font-family: calibri;
+text-align: center;
+color: gray;
+}
+.sure{
+	background-image: url(images2/a7.jpg);
+	background-repeat: no-repeat;
+}
+.sure:hover{
+  color: #379BD3;
+}
+
+.sure h2{
+font-family: calibri;
+margin-top:80%;
+text-align: center;
+}
+.sure h4{
+font-family: calibri;
+text-align: center;
+color: gray;
+}
+.mona{
+	background-image: url(images2/a8.jpg);
+	background-repeat: no-repeat;
+}
+.mona:hover{
+  color: #379BD3;
+}
+
+.mona h2{
+font-family: calibri;
+margin-top:80%;
+text-align: center;
+}
+.mona h4{
+font-family: calibri;
+text-align: center;
+color: gray;
+}
+.ruro div{
+	width: 30%;
+	height:450px;
+	border:1px solid gray;
+	margin-left: 2%;
+	margin-top: 30px;
+	float: left;
+}
+.tuto h2{
+	font-family: calibri;
+
+}
+.tuto hr{
+	width:%;
+}
