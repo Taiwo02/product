@@ -1,65 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>web</title>
-<style>
-@keyframes titi {
-	0%{
-	    transform:scale(1,1) skewY(-5deg);
-
-      } 
-      50%{
-	       transform:scale(1,1) rotateY(0deg);
-			}
-	100%{
-	
-		transform:scale(1,1) skewY(5deg);
-	
-	}
-	
-
-}
-
-body{
-	margin: 0;
-}
-   .container{
-   margin: 0;
-    
-   }
-   .container div img{
-   	width:100%;
-   	height: 550px;
-
-   }
-   .container div.tomson{
-   	width:100%;
-   	height: 20px;
-   	background-color:white;
-   	margin:0%;
-  /* 	transform:skewY(30deg);*/
-   	transform: skewY(-5deg);
-   	animation: titi;
-   	animation-duration: 3s;
-   	animation-iteration-count: infinite;
-   	padding-top: 60px;
-   	transition: transform 2s;
-
-
-   }
-
-
-</style>
+   <title></title>
 </head>
-<body>
-<div class="container">
-	<div><img src="images/6.jpg">
-<div class="tomson"></div>
+<body onload="startgame()">
+   <!-- <canvas id="one" width="600px"; height="500px" style="border:1px solid gray;background-color: gray"></canvas> -->
 
-	<div class="tomsono"><h3 style="color: black;font-size: 60px;text-align: center;margin-top: 5px;font-family: Arial black">THE NEW TOWN<br>The new town that just developed just amonth ago,<br>the town has come up with new method to the town,which all the world are trying to follow.<br>This method helps the town alot the method of gorvernment taxi<br>to carry people fromone place to another.</h3></div>
-
-	</div>
-	
-</div>
 </body>
+<script>
+   function startgame(){
+      myGame.start()
+      drawLIne =new Head(170,20,400,20,'line');
+      drawLIne.line();
+      drawRect =new Head(30,30,150,200,'rect');
+      drawRect.rect();
+
+   }
+    var myGame ={
+      canvas:document.createElement("canvas"),
+      start : function(){
+         this.canvas.width=500;
+         this.canvas.height=500;
+         this.context=this.canvas.getContext('2d');
+         document.body.insertBefore(this.canvas,document.body.childNodes[0]);
+         this.canvas.style.border='solid 1px gray';
+         this.canvas.style.background='#eee';
+      }
+    }
+
+   var Head = function(x,y,width,height,types){
+      this.x =x;
+      this.y=y;
+      this.width=width;
+      this.height=height;
+      this.types=types;
+      this.line=function(){
+         if (this.types=="line") {
+            ctx=myGame.context;
+            ctx.beginPath();
+            ctx.moveTo(this.x,this.y);
+            ctx.lineTo(this.width,this.height);
+            ctx.stroke();
+         }
+         this.rect = function(){
+            ctx=myGame.context;
+            ctx.beginPath();
+            ctx.fillRect(this.x,this.y,this.width,this.height)
+         }
+      }
+   }
+  
+   // var c=document.getElementById('one'),
+   // ctx=c.getContext('2d'),
+   // time=0;  
+   //  var render=function(){
+   //    ctx.clearRect(0,0,c.height,c.width);
+   //     var x=0,
+   //     y=time,
+   //     width=20,
+   //     height=20;
+   //    ra=numRectangles=100;
+   //  ctx.fillRect(x,y,width,height);
+   //   y=Math.random()*c.height
+
+   //   time+=1;
+
+   //  }
+   //  setInterval(render,20);
+
+   
+</script>
 </html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bost</title>
+	<link rel="stylesheet" type="text/css" href="canvas.css">
+	<!-- <script src="jquery 3.3.1.js"></script> -->
+	
+</head>
+<body>
+	
+		<h1>Drawing Sheet</h1>
+
+	
+	<div class="but">
+		<button class="but0" onclick="line=true;circle=false;rectangle=false"><h3>Line</h3></button>
+
+		<button class="but1" onclick="circle=true;line=false;rectangle=false"><h3>Circle</h3></button>
+		<button class="but2" onclick="rectangle=true;line=false;circle=false"><h3>square</h3></button>
+		<input type="color" id="color" name="">
+	</div>
+    <canvas onmouseup="few()" onmousedown="start()"  id="mycavs" width="1266px" height="540px";></canvas>
+    <input type="" id="see" name="">
+	</body>
+	<script>
+		var xd=0;
+		var yd=0;
+		var yu=0;
+		var xu=0;
+
+
+		var  canvas =document.getElementById('mycavs')
+       pencil=canvas.getContext('2d')
+	function start(){
+		xd=event.x-100;
+		yd=event.y-49;
+		 	
+	}
+	function few(){
+     xu=event.x-100;
+     yu=event.y-49;
+      if (line==true) {
+      	pencil.strokeStyle=color.value;
+      	pencil.moveTo(xu,yu);
+     	pencil.lineTo(xd,yd);
+     	pencil.stroke();
+     	// pencil.fill();
+     	
+     }
+	
+	
+
+		 if (rectangle==true) {
+			pencil.fillStyle=color.value;
+			pencil.fillRect(xd,yd,xu-xd,yu-yd);
+			// pencil.fill();
+		}
+		 if (circle==true){
+		pencil.fillStyle=color.value;
+		pencil.beginPath();
+		if (xu>xd) {
+			size=(xu-xd);
+		}
+		if (xu<xd) {
+			size=(xu-xd);
+		}
+		pencil.arc(xd,yd,size,0,2*Math.PI);
+		pencil.fill();
+	}
+	}
+	
+
+	</script>
+</htm

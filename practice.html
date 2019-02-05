@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>practice</title>
+</head>
+<body onload="sec()">
+<div id="demo"></div>
+<div id="bo"></div>
+
+</body>
+<script>
+	function sec(){
+	var d =new Date();
+	document.getElementById('demo').innerHTML=d.getHours()+":"+d.getMinutes()+":"+d.getSeconds();
+	var t=new Date();
+	document.getElementById('bo').innerHTML=t.getDay()+"/"+t.getMonth()+"/"+t.getFullYear();
+setTimeOut(sec,1000);
+}
+	// var h=new Date();
+	// document.getElementById('bo').innerHTML=h.getMonthp();
+
+</script>
+</html>

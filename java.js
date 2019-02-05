@@ -1,4 +1,3 @@
-
 var fan, vans, suro;
 function me(){
 	fan=m.value;
@@ -25,7 +24,8 @@ else if(vans.toLowerCase() == "male" && suro >=18) {
 else if (vans == "male" &&  vans == "female"  ) {
         alert("you can proced")
 	
-}else{
+}
+else{
 	alert(" Please  " + fan +"  The gender is incorrect ")
 }
 
@@ -54,10 +54,6 @@ switch (been.toLowerCase()){
 }
 }
 
-
-
-
-
 var t,a,i,w,o;
 function oga(){
 	t=tinu.value;
@@ -85,11 +81,16 @@ function oga(){
  	alert("please " + t +" input a valid gender")
  }
  }
- var sec,min,hr;
+
+ var sec;
+ var min;
+  var hr;
+   var alerm=  new audio("WALE1.mp3")
  function timecounting(){
  	var hr=hours.value;
  	var min=minutes.value;
  	var sec=seconds.value;
+
 
  	sec--;
  	seconds.value=sec;
@@ -113,27 +114,64 @@ function oga(){
 	minutes.value=59;
 	seconds.value=59;
 }
-
-// if (hor<=0 && min<=0 && sec<=0) {
-// 	tela.value=0;
-// 	tail.value=0;
-// 	fi.value=59;
-	
-
  if (hr<=0 && min<=0 && sec<=0){
 	seconds.value="";
 	minutes.value="";
 	hours.value="";
-	
+}
+
+}
+else{
+	alerm.play();
+}
+function button(){
+	alerm.pause();
+	seconds.value=10;
+}
+
 }
 
 
 
 
-}
 
-}
 
- 	
- 	
+var hor,minu, seco,minsec;
+var set;
+
+
+function stopwatch(){
+	hor =hour.value;
+	minu=minuet.value;
+	seco=second.value;
+	minsec=minisecond.value;
+
+	minisecond.value++;
+ set= setTimeout(stopwatch,10)
+ 
+ if (seco!=="" && minsec==99) {
+ 	minisecond.value=0;
+ 	 	second.value++;
+ 	 	
+ }
+ if (minu!=="" && seco==59 && minsec==99) {
+ 	minuet.value++;
+ 	second.value=0;
+ 	minisecond.value=0;
+ }
+ if (hor!=="" && minu==59 && seco==59 && minsec==99) {
+ 	hour.value++;
+ 	minuet.value=0;
+ 	second.value=0;
+ 	minisecond.value=0;
+ }
+
+} 	
+ 
+function stop(){
+clearTimeout(set)
+}
+ function lap(){
+ 	document.getElementById('save').innerHTML +=  hour.value +":"e +":"+minisecond.value   +"   " ;
+ }
  

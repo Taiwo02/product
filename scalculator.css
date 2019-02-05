@@ -1,0 +1,163 @@
+body{
+	margin: 0;
+	background-color: blue;
+}
+#container{
+	width: 30%;
+	height:600px;
+	background-color:gray;
+	margin-top:20px;
+	margin-left: 400px;
+	border-radius:10px;
+	border:8px solid red;
+}
+#container div.go{
+    width:100%;
+	height:200px;
+	background-color:black;
+	border-radius:px;
+	border-bottom:10px solid red;	
+}
+.free input{
+	text-align:right;
+	width:90%;
+	height:100px;
+	margin-top: 30px;
+	margin-left: 20px;
+	font-size: 50px;
+	font-family:lcd;
+	color: black;
+
+}
+.seu{
+
+	width: 100%;
+	height: 80px;
+	background-color: gray;
+}
+.seu li{
+	float: left;
+	margin-top:20px;
+	list-style-type: none;
+	margin-left: 20px;
+}
+.seu li input{
+	width: 50px;
+    height: 20px
+
+}
+
+.clearfix{
+	clear: both;
+}
+.reel div{
+	float: left;
+	margin-top:-35px
+}
+.ri{
+	margin-left: 10px;
+}
+.rea{
+	margin-left:300px;
+}
+.reel input{
+
+	width:37px;
+	height: 20px;
+	background-color: black;
+	outline: none;
+}
+
+.main input{
+
+	width:37px;
+	height: 20px;
+	background-color: black;
+	outline: none;
+	color: white;
+}
+.m input{
+
+	width:37px;
+	height: 20px;
+	background-color: black;
+	outline: none;
+	color: white;
+}
+.n input{
+
+	width:37px;
+	height: 20px;
+	background-color: black;
+	outline: none;
+	color: white;
+}
+.clearfix{
+	clear: both;
+}
+.main input{
+	background-color: black;
+	outline: none;
+	width: 40px;
+	height: 30px;
+margin-left:30px;
+
+
+}
+.m input{
+ background-color: black;
+	width: 40px;
+	height: 30px;
+margin-left: 30px;
+outline: none;
+
+
+}
+
+.n input{
+	background-color: black;
+	width: 40px;
+	height: 30px;
+margin-left: 30px;
+outline: none;
+
+
+}
+.o input{
+   background-color:darkgray;
+	width: 40px;
+	height:35px;
+   margin-left: 30px;
+   outline: none;
+   margin-top:10px;
+
+}
+.p input{
+   background-color:darkgray;
+	width: 40px;
+	height: 35px;
+   margin-left: 30px;
+   outline: none;
+   margin-top: 10px;
+
+}
+.e input{
+   background-color:darkgray;
+	width: 40px;
+	height: 35px;
+   margin-left: 30px;
+   outline: none;
+   margin-top: 10px;
+
+}
+.l input{
+   background-color:darkgray;
+	width: 40px;
+	height:35px;
+   margin-left: 30px;
+   outline: none;
+   margin-top: 10px;
+
+
+
+

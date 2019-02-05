@@ -28,20 +28,22 @@
        result =  firstvalue / secondvalue;
        r.value = result;
 	}
+	
 	var JAMBScore;
 	function chekadmission(){
 		JAMBScore=fr.value;
 		// alert("am cheking")
 		if (JAMBScore>= 200){
-			alert("admission granted");
+			po.value="admission granted";
 		}
 		else{
-		alert("not admitted")
+		po.value="not admitted";
 		 }
 
-
+       
    
 	}
+
 
 
 	</script>
@@ -65,7 +67,7 @@
 <center>
 	<table>
 		<tr ><td >JAMB Score<input type="text" id="fr" placeholder="200" name=""></td></tr>
-		<tr><td><button onclick="chekadmission()">Chek Addmission</button></td></tr>
+		<tr><td><button onclick="chekadmission()">Chek Addmission</button><input type="text"  disabled="" id="po" name="" style=" margin-left: 200px; height: 80px;margin-top: -60px;"></td></tr>
 	</table>
 
 </center>

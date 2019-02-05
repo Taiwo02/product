@@ -1,0 +1,85 @@
+.
+.bool img{
+    width:200px;
+    height:90px;
+}
+.prince img{
+    width:200px;
+    height:90px;
+    margin-top: -90px;
+
+
+}
+ 
+.bo img{
+    width:200px;
+    height:90px;
+}
+.price img{
+    width:200px;
+    height:90px;
+    margin-top: -90px;
+
+
+}
+ 
+
+.mo img{
+    width:200px;
+    height:90px;
+}
+.mon img{
+    width:200px;
+    height:90px;
+    margin-top: -90px;
+
+
+}
+ 
+
+.ri img{
+    width:100px;
+    height:90px;
+    margin-left:40px;
+    background-color: aqua;
+}
+.re img{
+    width:100px;
+    height:90px;
+    margin-left:40px;
+    margin-top: -90px;
+    background-color: aqua;
+
+
+}
+.deal{
+    width: 100%;
+}
+.deal div{
+
+    float: left;
+}
+ 
+
+table input{
+    width:120px;
+    background-color: brown;
+    font-size:15px;
+    color: white;
+    text-align: center;
+}
+#ola{
+    width:40px;
+    height: 50px;
+    margin: 20px
+}
+
+#ola {
+    width: 200px;
+    height:150px;
+    border: 2px solid gray;
+}
+#ola img{
+    width: 100%;
+    height: 100%;
+}

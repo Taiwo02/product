@@ -1,0 +1,146 @@
+body{
+	margin: 0;
+
+}
+
+.lol{
+	width: 100%;
+	height: 700px;
+	background-color: blue;
+	padding-top: 10px;
+}
+.container{
+	width:30%;
+	height:600px;
+	background-color:white;
+	margin-left: 35%;
+	border-radius: 15px;
+	margin-top: 20PX;
+	padding-top: 5px;
+	margin-top: 20px;
+}
+.pro{
+	width:50px;
+	height: 9px;
+	border-radius:5px;
+	margin-left: 45%;
+	background: linear-gradient(to right,rgb(0,0,0,0.9),rgb(0,0,0,0.4))
+}
+.lone{
+	width:12px;
+	height: 12px;
+	background-color:gray;
+	border-radius:50% 50% 50% 50%;
+	margin-left: 37%;
+	margin-top: -10px;
+	background: linear-gradient(to right,rgb(0,0,0,0.9),rgb(0,0,0,0.4))
+}
+.lose{
+	width:8px;
+	height: 8px;
+	background-color:gray;
+	border-radius:50% 50% 50% 50%;
+	margin-left:33%;
+	margin-top: -10px;
+
+
+
+}
+
+.second{
+	width:96%;
+	height:90%;
+	background:linear-gradient(to right,rgba(0,0,0,0.9), rgba(0,0,0,0.4)), url(images2/a4.jpg);
+	background-repeat: none;
+	background-size: cover;
+	margin-left:8px;
+	border:none;
+	border-radius:15px;
+	outline: none;
+	margin-top: 5px;
+}
+.forth{
+	width:32px;
+	height: 32px;
+	border:solid 4px red;
+    border-radius: 50% 50% 50% 50%;
+    margin-top: 5px;
+    margin-left:45%;
+}
+ .go{
+	width: 100%;
+	height:60px;
+	margin-top:350px;
+	margin-left:10px;
+}
+  .go li{
+  	width: 50px;
+  	height: 50px;
+	float: left;
+	border-radius: 20px;
+	list-style-type: none;
+	margin-left: 20px;
+	background-color: blue;
+}
+.go li i {
+	width: 80px;
+	height: 60px;
+	font-size:30px;
+	font-weight:800px;
+	text-align: center;
+	color: white;text-align: center;
+	margin-top: 15px;
+	margin-left: -15px;
+
+}
+
+
+
+/*.go div{
+	margin-left:25px;
+	float:left;
+	width: 45px;
+	height: 40px;
+	background-color:green;
+	border-radius: 20px;
+}
+
+.go div.nil:hover{
+	margin-left:20px;
+	float:left;
+	width: 45px;
+	height: 40px;
+	background-color:inherit;
+	border-radius: 20px;
+}
+*/
+
+input{
+	width:50px;
+	height:30px;
+	background-color: inherit;
+	border:none;
+	outline:none;
+	font-family: calibri;
+	font-size: 30px;
+	color: white;
+}
+.second h1{
+	color: white;
+	font-size:20px;
+}
+.second button{
+	background-color: inherit;
+	border:none;
+	outline: none;
+	font-size: 1px;
+}
+
+.scop{
+	width: 100%;
+	height:200px;
+}
+.scop input{
+	border:2px solid gray;
+	
+}

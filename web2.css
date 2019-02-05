@@ -106,13 +106,13 @@ font-family:calibri;
 	background-color:#233237;
 	margin-top: -30px;
 }
-ul {
+ .tsk ul {
 	width:80%;
 	height: 50px;
 	margin-left: 10%;
 	margin-right: 10%;
 }
-ul li {
+.tsk ul li {
 	float: left;
 	margin-top:15px;
 	color: white;
@@ -320,7 +320,7 @@ color: gray;
 .tuto h2{
 	font-family: calibri;
 
-}
+}io
 .tuto hr{
 	width:%;
 }
