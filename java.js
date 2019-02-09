@@ -1,3 +1,4 @@
+
 var fan, vans, suro;
 function me(){
 	fan=m.value;
@@ -85,7 +86,7 @@ function oga(){
  var sec;
  var min;
   var hr;
-   var alerm=  new audio("WALE1.mp3")
+   // var alerm = new Audio("WALE1.mp3")
  function timecounting(){
  	var hr=hours.value;
  	var min=minutes.value;
@@ -103,6 +104,7 @@ function oga(){
  else  if (sec<=0 && min !=="") {
    	minutes.value--;
    	seconds.value=59;
+}
   
    if(min<=0){
    	minutes.value=""; 
@@ -120,7 +122,6 @@ function oga(){
 	hours.value="";
 }
 
-}
 else{
 	alerm.play();
 }
@@ -172,6 +173,5 @@ function stop(){
 clearTimeout(set)
 }
  function lap(){
- 	document.getElementById('save').innerHTML +=  hour.value +":"e +":"+minisecond.value   +"   " ;
+ 	document.getElementById('div').innerHTML +=  hour.value +":"+minuet.value+":"+second.value+":"+minisecond.value+"<br>";
  }
- 
