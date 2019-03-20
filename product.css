@@ -1,48 +1,51 @@
-.
+
 .bool img{
-    width:200px;
-    height:90px;
+    width:170px;
+    height:120px;
 }
-.prince img{
+/* .prince img{
     width:200px;
-    height:90px;
+    height:150px;
     margin-top: -90px;
 
 
-}
+} */
  
 .bo img{
-    width:200px;
-    height:90px;
+    width:170px;
+    height:120px;
 }
 .price img{
-    width:200px;
-    height:90px;
-    margin-top: -90px;
+    width:170px;
+    height:100px;
 
 
 }
  
 
 .mo img{
-    width:200px;
-    height:90px;
+    width:170px;
+    height:100px;
 }
-.mon img{
+.ri img{
+    width:170px;
+    height:120px;
+}
+/* .mon img{
     width:200px;
-    height:90px;
+    height:100px;
     margin-top: -90px;
 
 
 }
- 
+  */
 
-.ri img{
-    width:100px;
-    height:90px;
+/* .ri img{
+    width:200px;
+    height:100px;
     margin-left:40px;
     background-color: aqua;
-}
+} */
 .re img{
     width:100px;
     height:90px;
@@ -60,13 +63,19 @@
     float: left;
 }
  
-
+table{
+    background-color: rgb(66, 197, 121); 
+}
 table input{
-    width:120px;
-    background-color: brown;
-    font-size:15px;
-    color: white;
+    width:100px;
+    height: 50px;
+    background-color: rgb(66, 197, 121);
+    font-size:17px;
+    color:white;
     text-align: center;
+    font-weight: 700;
+    border: none;
+   outline: none;
 }
 #ola{
     width:40px;
@@ -75,9 +84,9 @@ table input{
 }
 
 #ola {
-    width: 200px;
-    height:150px;
-    border: 2px solid gray;
+    width: 350px;
+    height:400px;
+    border: 2px solid rgb(79, 37, 175);
 }
 #ola img{
     width: 100%;

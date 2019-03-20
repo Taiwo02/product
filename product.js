@@ -7,14 +7,14 @@ var last;
 function fist(){
     item1=moon.value;
     hill.value= item1*300000; 
-    hool.value=hool.value - moon.value;
+    hool.value=parseInt(hool.value) - parseInt( moon.value);
     
     if(item1 >=5000){
         hill.value="out of stock";
         hool.value="out of stock";
     }
-    if (item1==0) {
-        hool.value=5000;
+    if (item1=="") {
+        hool.value=gist.value;
     }
     
     
@@ -70,18 +70,21 @@ function ring(){
 total()
 }
 function view1(){
-    ola.innerHTML = "<img src='images2/image1.jpg'>"
+    ola.innerHTML = "<img src='images2/flowerr.jpg'>"
 }
 function view2(){
-    ola.innerHTML="<img src='images2/d.png'>"
+    ola.innerHTML="<img src='images2/flower rosee (2).jpg'>"
 }
 function view3(){
-    ola.innerHTML="<img src='images2/jeans1.jpg'>"
+    ola.innerHTML="<img src='images2/flower.jpg'>"
 }
 function view4(){
-    ola.innerHTML="<img src='images2/ring1.jpg'>"
+    ola.innerHTML="<img src='images2/flowerr (1).jpg'>"
 }
 
 function onmouseout1(){
     ola.innerHTML="";
+}
+function po(){
+    window.print;
 }

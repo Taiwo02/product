@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="product.css" />
     <script src="product.js"></script>
 </head>
-<body>
+<body onload="fist()">
     <div class="deal">
         <div>
   <table border="1">
@@ -24,73 +24,75 @@
     </tr>
     <tr>
     <td>
-        <div class="bool"><img src="images2/image1.jpg" onmouseover="view1()" onmouseout="onmouseout1()"></div>
+        <div class="bool"><img src="images2/flowerr.jpg" onmouseover="view1()" onmouseout="onmouseout1()" 0></div>
 </td>
-       <td ><input type="text" value="Phones"  disabled="" style="height:90px;"></td>
-       <td><input type="text"  disabled="" value="5000" style="height:90px;"></td>
+       <td ><input type="text" value="Love flower"  disabled="" style="height:90px;"></td>
+       <td><input type="text" id="gist"  disabled="" value="5000" style="height:90px;"></td>
 
-       <td><input type="text" id="hool"  disabled="" value="5000" style="height:90px;"></td>
+       <td><input type="text" id="hool"  disabled="" style="height:90px;"></td>
 
        <td><input type="text" id="now" value="N300000" disabled="" style="height:90px;"></td>
-       <td><input type="text" id="moon" placeholder="Your order" style="height:90px;" onkeyup="fist()">
+       <td><input type="number" id="moon" placeholder="Your order" style="height:90px;" onkeyup="fist()">
     </td>
     <td><input type="text" id="hill" value="0" disabled="" style="height:90px;"></td>
     </tr>
     
 
     <tr>
-           <td>
-                <div class="bo"><img src="images2/d.png" onmouseover="view2()" onmouseout="onmouseout1()"></div>
-           </td>
-            <td ><input type="text" value="Shirts" disabled="" style="height:90px;"></td>
+      <td>
+      <div class="bo"><img src="images2/flower rosee (2).jpg" onmouseover="view2()" onmouseout="onmouseout1()"></div>
+      </td>
+     <td ><input type="text" value="Rose flower" disabled="" style="height:90px;"></td>
 
-            <td><input type="text" value="3000" disabled="" style="height:90px;"></td>
+     <td><input type="text" value="3000" disabled="" style="height:90px;"></td>
 
-            <td><input type="text" id="one" value="3000" disabled="" style="height:90px;"></td>
-            <td><input type="text" id="shirt" value="N1500" disabled="" style="height:90px;"></td>
-            <td><input type="text" id="play" placeholder="Your order" style="height:90px;" onkeyup="shirt()">
-         </td>
-         <td><input type="text"  value="0" id="two" disabled="" style="height:90px;"></td>
-         </tr>
+    <td><input type="text" id="one" value="3000" disabled="" style="height:90px;"></td>
+     <td><input type="text" id="shirt" value="N1500" disabled="" style="height:90px;"></td>
+    <td><input type="number" id="play" placeholder="Your order" style="height:90px;" onkeyup="shirt()">
+     </td>
+     <td><input type="text"  value="0" id="two" disabled="" style="height:90px;"></td>
+     </tr>
 
-         <tr>
-           <td>
-               <div class="mo"><img src="images2/jeans1.jpg" onmouseover="view3()" onmouseout="onmouseout1()"></div>
-           </td>
-            <td ><input type="text" value="Jeans" disabled="" style="height:90px;"></td>
-            <td><input type="text" value="1000" disabled="" style="height:90px;"></td>
+     <tr>
+     <td>
+    <div class="mo"><img src="images2/flower.jpg" onmouseover="view3()" onmouseout="onmouseout1()"></div>
+    </td>
+    <td ><input type="text" value="Glase cups" disabled="" style="height:90px;"></td>
+    <td><input type="text" value="1000" disabled="" style="height:90px;"></td>
             
-            <td><input type="text" id="three" value="1000" disabled="" style="height:90px;"></td>
+    <td><input type="text" id="three" value="1000" disabled="" style="height:90px;"></td>
 
             <td><input type="text" value="#3000" disabled="" style="height:90px;"></td>
-            <td><input type="text" id="jean" placeholder="Your order" style="height:90px;" onkeyup="jeans()">
+            <td><input type="number" id="jean" placeholder="Your order" style="height:90px;" onkeyup="jeans()">
          </td>
          <td><input type="text" id="four" value="0" disabled="" style="height:90px;"></td>
          </tr>
 
          <tr>
-                <td>
-                    <div class="ri"> <img src="images2/ring1.jpg" onmouseover="view4()" onmouseout="onmouseout1()"></div>
-                </td>
-                 <td ><input type="text" value="Rings" disabled="" style="height:90px;"></td>
-                 <td><input type="text" value="500" disabled="" style="height:90px;"></td>
+         <td>
+        <div class="ri"> <img src="images2/flowerr (1).jpg" onmouseover="view4()" onmouseout="onmouseout1()"></div>
+        </td>
+         <td ><input type="text" value="Wedding flower" disabled="" style="height:90px;"></td>
+         <td><input type="text" value="500" disabled="" style="height:90px;"></td>
 
-                 <td><input type="text" id="five" value="500" disabled="" style="height:90px;"></td>
+         <td><input type="text" id="five" value="500" disabled="" style="height:90px;"></td>
 
-                 <td><input type="text" id="ri" value="#20,000" disabled="" style="height:90px;"></td>
-                 <td><input type="text" id="rg" placeholder="Your order" style="height:90px;" onkeyup="ring()">
-              </td>
-              <td><input type="text" id="six" value="0" disabled="" style="height:90px;"></td>
-              </tr>
-
-              <tr>
-                    <td colspan="5" style="background-color:orangered;color:mintcreaoverall pricem;">Overall Price</td>
-                     <td ><input type="text" id="totaldisplay" stylet="heigh:90px;"></td>
+       <td><input type="text" id="ri" value="#20,000" disabled="" style="height:90px;"></td>
+      <td><input type="number" id="rg" placeholder="Your order" style="height:90px;" onkeyup="ring()">
+      </td>
+        <td><input type="text" id="six" value="0" disabled="" style="height:90px;"></td>
+        </tr>
+         <tr>
+         <td colspan="5" style=" color: white;font-size: 30px; background-color:rgb(17, 59, 7);color:mintcreaoverall pricem;">Overall Price</td>
+         <td colspan="2"><input type="text" id="totaldisplay" stylet="heigh:90px;"></td>
         
-            </tr>
+ </tr>
 </table>
 </div>
-<div id="ola">
+
+<div id="ola"></div>
+</div><button onclick="po()">Print</button>
+
 </div>
 </div>
 </body>
